@@ -1,0 +1,23 @@
+img{
+  float: left;
+  width: 40%;
+  margin: 10px;
+}
+
+button {
+  font-size: 12px;
+  margin: 3px;
+}
+
+nav {
+  display: block;
+}
+
+h1{
+  font-family: 'Lobster', cursive;
+  margin-left: 3%
+}
+
+#camerapoll{
+  width: 50%;
+}
