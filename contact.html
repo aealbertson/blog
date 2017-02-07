@@ -2,36 +2,52 @@
 <html>
 
 <head>
-  <title>Contact Page</title>
+  <title>Contact Me</title>
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="main.css">
-  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Caveat+Brush" rel="stylesheet">
 </head>
 
 <body>
-  <!--Title -->
-  <div class="container">
-    <div class="row">
-      <h1>Contact Me</h1>
+  <div class="page-header">
+      <div class="row-fluid-banner">
+          <a href="index.html"><h1 id="header">Contact Me</h1></a>
+          <h3 id="tag">All Things Hiking</h3>
+      </div>
     </div>
-    <!-- Small paragraph about reaching out to me -->
+  <div class="container">
     <div class="col-md-4">
-      <p>Hi, I'm Ashton and I love photography, cats, and good stories. Send me something in an email.</p>
-      <div class="form-group">
-      <label for="camerapoll">Whats your all time favorite camera brand?</label>
-      <select class="form-control" id="camerapoll">
-      <option>Canon</option>
-      <option>Nikon</option>
-      <option>Sony</option>
-      </select>
+        <!--Navigation  -->
+      <nav>
+        <ul class="nav nav-pills nav-stacked">
+            <li role="presentation"><a href="index.html">Home</a></li>
+            <li role="presentation"><a href="#">About</a></li>
+            <li role="presentation"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
       </div>
-
-      <button type="submit" class="btn btn-primary">Submit</button>
+    <div class="col-md-4">
+      <p id="intro">Hi, I'm Ashton and I love a good campfire story. Send me one below:</p>
+      <div class="col-md-4">
+        <textarea rows="7" cols="35"> Tell me a good story...</textarea>
       </div>
-    <!-- <div class="row"> -->
-  <!--Email Form -->
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="form-group">
+          <label for="camerapoll">Whats your favorite brand of hiking boot?</label>
+            <select class="form-control" id="camerapoll">
+              <option>Timberland</option>
+              <option>Ahnu</option>
+              <option>Merrell</option>
+              <option>Vasque</option>
+            </select>
+          </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
   <div class="col-md-8">
-      <a href="mailto:ashtonalbertson@gmail.com">Send me an email here!</a>
     </div>
   </div>
 </body>
