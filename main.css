@@ -1,7 +1,13 @@
-img{
+img {
   float: left;
   width: 40%;
   margin: 10px;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+
+.page-header{
+  background-color: #68c193;
 }
 
 button {
@@ -11,13 +17,80 @@ button {
 
 nav {
   display: block;
+  text-align: center;
+  border-radius: 3px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+  text-decoration: none;
+
 }
+
 
 h1{
-  font-family: 'Lobster', cursive;
-  margin-left: 3%
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 15px;
+  text-align: center;
+
 }
 
-#camerapoll{
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  margin-top: 0px;
+
+}
+#tag {
+  font-family: 'Caveat Brush', cursive;
+  text-align:center;
+}
+
+#article-title {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+}
+
+#poll{
   width: 50%;
+}
+
+#header {
+  text-decoration: none;
+  color: black;
+}
+
+#intro{
+  font-family: 'Caveat Brush', cursive;
+  font-size: 20px;
+
+}
+
+footer{
+  margin: 2%;
+  padding: 2%;
+  text-align: center;
+  list-style-type: none;
+}
+
+p{
+  padding: 10px;
+}
+
+body{
+ background-color: #e5e5e5;
+}
+
+textarea {
+  font-family: 'Caveat Brush', cursive;
+  font-style: italic;
+
+}
+
+textarea:focus{
+  background-color: #68c193;
+  font-family: 'Caveat Brush', cursive;
+  font-style: italic;
 }
